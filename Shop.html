@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online shop</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1c84c20e74.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header>
+    <nav>
+      <div class="navbar bg-gradient-to-r from-pink-200 to-gray-200">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="Shop.html">Shop</a>
+                <ul class="p-2">
+                  <li><a href="Blog.html">Blog</a></li>
+                  <li><a href="About.html">About</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <!-- <a class="btn btn-ghost normal-case text-xl">daisyUI</a> -->
+          <img src="images/logo_1.jpg" alt="" class="w-16 h-16 hidden lg:block ml-12">
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+           
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+    
+   </header>
+    <main>
+           <!-- main section -->
+           <section class="max-w-screen-xl mx-auto my-10 py-5 px-8 lg:px-16">
+            <h4  class="text-[#4a343e5a] font-bold text-xl  animated-text box1 text-center mb-12">OUR WINTER COLLECTION</h4>
+            <!-- root div -->
+            <div class="flex gap-4 flex-col-reverse lg:flex-row">   
+                <!-- picture side div -->
+                
+              <div>
+           <div  >
+            <!-- pareant div -->
+            <h4 class="mb-4 text-black font-bold">Male Jacket</h4>
+            <!-- fist pic  -->
+            <div class="grid  md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div onclick="commonShareHandle(this)" class="card  bg-base-100 shadow-purple-600  shadow-2xl  box">
+                    <figure class="px-10 pt-10">
+                      <img src="images/db76f49565d5df92566af8d791c2d9a7.jpg_300x0q75.webp" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                  
+                        <div class="text-center mt-4">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                        </div>
+                    
+                      <h2 class="text-black font-bold text-center">Black Jacket</h2>
+                      
+                      
+                    
+                    <p class="text-center font-bold text-orange-700">800.00 TK</p>
+                    </div>
+                    <!-- second pic -->
+                <div onclick="commonShareHandle(this)" class="card  bg-base-100 shadow-orange-600  shadow-2xl  box">
+                    <figure class="px-10 pt-10">
+                      <img src="images/jacket2.webp" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    
+                        <div class="text-center mt-4">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                        </div>
+                    
+                      <h2 class="text-black font-bold text-center">Shirt</h2>
+                      
+                      
+                    
+                    <p class="text-center font-bold text-orange-700">100.00 TK</p> 
+                    </div>
+                    <!-- third pic -->
+                <div onclick="commonShareHandle(this)" class="card  bg-base-100 shadow-green-600  shadow-2xl  box">
+                    <figure class="px-10 pt-10">
+                      <img src="images/jacket3.webp" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    
+                      
+                        <div class="text-center mt-4">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                        </div>
+                    
+                      <h2 class="text-black font-bold text-center">casual jacket </h2>
+                      
+                    
+                      
+                      <p class="text-center font-bold text-orange-700">200.00 TK</p>
+                    </div>
+                  </div>
+            
+                </div>
+                
+
+
+             
+                <!-- pareant div -->
+           <div class="mt-4">
+            
+            <h4 class="mt-4 text-black font-bold">Male Hoodie</h4>
+            <!-- fourth pic  -->
+            <div class="grid  md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div onclick="commonShareHandle(this)" class="card  bg-base-100 shadow-purple-600  shadow-2xl  box">
+                    <figure class="px-10 pt-10">
+                      <img src="images/hoodie1.jpg" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    
+                        <div class="text-center mt-4">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                        </div>
+                    
+                      <h2 class="text-black font-bold text-center">Casual hoodie</h2>
+                      
+                      
+                    
+                    <p class="text-center font-bold text-orange-700">139.00 TK</p>
+                    </div>
+                    <!-- five pic -->
+                <div onclick="commonShareHandle(this)" class="card  bg-base-100 shadow-orange-600  shadow-2xl  box">
+                    <figure class="px-10 pt-10">
+                      <img src="images/hoodie2.jpg" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    
+                        <div class="text-center mt-4">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                        </div>
+                    
+                      <h2 class="text-black font-bold text-center">black hoodie</h2>
+                      
+                      
+                    
+                    <p class="text-center font-bold text-orange-700">390.00 TK</p>
+                    </div>
+                    <!-- six pic -->
+                <div onclick="commonShareHandle(this)" class="card  bg-base-100 shadow-green-600  shadow-2xl  box">
+                    <figure class="px-10 pt-10">
+                      <img src="images/hoodi3.jpg" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    
+                        <div class="text-center mt-4">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                        </div>
+                    
+                      <h2 class="text-black font-bold text-center">Sports hoodie</h2>
+                      
+                      
+                    
+                    <p class="text-center font-bold text-orange-700">239.00 TK</p>
+                    </div>
+                  </div>
+            
+                </div>
+
+
+           <div class="mt-4">
+            
+            <h4 class="mt-4 text-black font-bold">Sportswear</h4>
+            <!-- fourth pic  -->
+            <div class="grid  md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div onclick="commonShareHandle(this)" class="card  bg-base-100 shadow-purple-600  shadow-2xl  box">
+                    <figure class="px-10 pt-10">
+                      <img src="images/prod4.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    
+                        <div class="text-center mt-4">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                        </div>
+                    
+                      <h2 class="text-black font-bold text-center">Sports Back Cap</h2>
+                      
+                      
+                    
+                    <p class="text-center font-bold text-orange-700">139.00 TK</p>
+                    </div>
+                    <!-- five pic -->
+                <div onclick="commonShareHandle(this)" class="card  bg-base-100 shadow-orange-600  shadow-2xl  box">
+                    <figure class="px-10 pt-10">
+                      <img src="images/prod5.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    
+                        <div class="text-center mt-4">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                        </div>
+                    
+                      <h2 class="text-black font-bold text-center">Full Jersey Set</h2>
+                      
+                      
+                    
+                    <p class="text-center font-bold text-orange-700">39.00 TK</p>
+                    </div>
+                    <!-- six pic -->
+                <div onclick="commonShareHandle(this)" class="card  bg-base-100 shadow-green-600  shadow-2xl  box">
+                    <figure class="px-10 pt-10">
+                      <img src="images/prod6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    
+                        <div class="text-center mt-4">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                        </div>
+                    
+                      <h2 class="text-black font-bold text-center">Sports cates</h2>
+                      
+                      
+                    
+                    <p class="text-center font-bold text-orange-700">239.00 TK</p>
+                    </div>
+                  </div>
+            
+                </div>
+
+
+           <div class="mt-4">
+            
+            <h4 class="mt-4 text-black font-bold">Sportswear</h4>
+            <!-- fourth pic  -->
+            <div class="grid  md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div onclick="commonShareHandle(this)" class="card  bg-base-100 shadow-purple-600  shadow-2xl  box">
+                    <figure class="px-10 pt-10">
+                      <img src="images/prod4.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    
+                        <div class="text-center mt-4">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                        </div>
+                    
+                      <h2 class="text-black font-bold text-center">Sports Back Cap</h2>
+                      
+                      
+                    
+                    <p class="text-center font-bold text-orange-700">139.00 TK</p>
+                    </div>
+                    <!-- five pic -->
+                <div onclick="commonShareHandle(this)" class="card  bg-base-100 shadow-orange-600  shadow-2xl  box">
+                    <figure class="px-10 pt-10">
+                      <img src="images/prod5.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    
+                        <div class="text-center mt-4">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                        </div>
+                    
+                      <h2 class="text-black font-bold text-center">Full Jersey Set</h2>
+                      
+                      
+                    
+                    <p class="text-center font-bold text-orange-700">39.00 TK</p>
+                    </div>
+                    <!-- six pic -->
+                <div onclick="commonShareHandle(this)" class="card  bg-base-100 shadow-green-600  shadow-2xl  box">
+                    <figure class="px-10 pt-10">
+                      <img src="images/prod6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    
+                        <div class="text-center mt-4">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        
+                        </div>
+                    
+                      <h2 class="text-black font-bold text-center">Sports cates</h2>
+                      
+                      
+                    
+                    <p class="text-center font-bold text-orange-700">239.00 TK</p>
+                    </div>
+                  </div>
+            
+                </div>
+              </div> 
+
+              
+
+
+                <div>
+                  <div class="shadow-lg mb-4">
+                  <h1 class="font-bold text-black mb-4">Have coupon?</h1>
+                  <div class="flex">
+                    <input type="text" name="" id="input-field" placeholder="Coupon code" class=" border  ps-2">
+                    <button onclick="buttonShare()" id="apply-button" class="bg-[#E527B2] text-white p-2">Apply</button>
+                  </div>
+                  </div>
+                  <div class="mt-8 shadow-lg">
+                  <div id="creat-element" >
+                      
+                  </div>
+                  <h1 class="font-bold">Total Price: <span id="total-money" class="text-gray-400">00tk</span> </h1>
+                  <h1 class="font-bold">Discount:<span id="discount-money" class="text-gray-400">00tk</span> </h1>
+                  <h1 class="font-bold">Total :<span id="grand-total" class="text-gray-400">00tk</span> </h1>
+                  <!-- <button  class="bg-[#E527B2] text-white p-2 w-full mt-4" ></button> -->
+                  <!-- You can open the modal using ID.showModal() method -->
+                    
+   <button disabled id="purchase-button"  class="bg-[#E527B2] text-white p-2 w-full mt-4" onclick="my_modal_4.showModal()">Make Purchase</button>
+          <dialog id="my_modal_4" class="modal">
+            <form method="dialog" class="modal-box  w-76  md:max-w-sm lg:max-w-sm">
+              <div class="ml-24">
+              <img src="images/congo.png" alt="" class="text-center">
+              <h3 class="font-bold text-lg">Congratulations</h3>
+              <p class="py-4 text-xs">Your Purchase the product</p>
+            </div>
+              <div class="text-center">
+                <!-- if there is a button, it will close the modal -->
+                <button id="go-button" class="bg-[#E527B2] text-white p-2">Go Home</button>
+              </div>
+            </form>
+          </dialog>
+                      
+              </div>
+              
+            </div>
+
+          </div>
+               
+            </section>
+            
+    </main>
+    
+
+    <script src="js/summer.js"></script>
+    
+    
+</body>
+</html>

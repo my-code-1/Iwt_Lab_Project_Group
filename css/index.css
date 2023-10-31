@@ -1,0 +1,84 @@
+
+.animated-text {
+    font-size: 24px;
+    animation: textAnimation 3s ease infinite;
+}
+
+@keyframes textAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.box{
+    position: relative;
+    background: repeating-conic-gradient(from var(--a), #efdae1 0%, #f1e2e7 5%,transparent 5%,transparent 20%,#eedce1 50%);
+    animation: animate 3s linear infinite;
+    border-radius: 20px;
+}
+@property --a
+{
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0;
+}
+@keyframes animate
+{
+    0%
+    {
+      --a:0deg;
+    }
+    100%
+    {
+      --a:90deg;
+    }
+}
+.box::before
+{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: animate 4s linear infinite;
+    animation-delay: -1s;
+    border-radius: 20px;
+}
+.box::after
+{
+    content: '';
+    position: absolute;
+    inset:8px;
+    border-radius: 15px;
+    
+
+
+}
+.box1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+    background: linear-gradient(135deg,#ff00d2,
+    #fed90f,#00a2ff,#26c276,#ff00d2,
+    #fed90f,#00a2ff,#6ad6bb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+    background: linear-gradient(135deg,#ed7bba,
+    #f6f6f5,#e1e3e5,#cededa,#e8cde3,
+    #f1eedf,#d9e3e8,#d5e1df);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
